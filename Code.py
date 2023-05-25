@@ -25,3 +25,5 @@ with open('results.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['SNP', 'Start', 'End', 'QTL'])  # Write the headers
     writer.writerows(results)
+
+#All the columns must have the same row numbers. Fill the empty cells with 0 
